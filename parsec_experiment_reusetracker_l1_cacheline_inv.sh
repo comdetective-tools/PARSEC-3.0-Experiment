@@ -16,15 +16,13 @@ parsec-3.0/bin/parsecmgmt -a build -p canneal -c gcc-pthreads
 ./fix_dedup_error.sh
 parsec-3.0/bin/parsecmgmt -a build -p dedup -c gcc-pthreads
 parsec-3.0/bin/parsecmgmt -a build -p streamcluster -c gcc-pthreads
-./fix_ferret_error.sh
-parsec-3.0/bin/parsecmgmt -a build -p ferret -c gcc-pthreads
 
-./blackscholes_run.sh
-./bodytrack_run.sh
-./dedup_run.sh
-./facesim_run.sh
-./fluidanimate_run.sh
-./freqmine_run.sh
-./streamcluster_run.sh
-./swaptions_run.sh
-./vips_run.sh
+./blackscholes_l1_run_cacheline_inv.sh
+./bodytrack_l1_run_cacheline_inv.sh
+./dedup_l1_run_cacheline_inv.sh
+./facesim_l1_run_cacheline_inv.sh
+./fluidanimate_l1_run_cacheline_inv.sh
+./freqmine_l1_run_cacheline_inv.sh
+./streamcluster_l1_run_cacheline_inv.sh
+./swaptions_l1_run_cacheline_inv.sh
+./vips_l1_run_cacheline_inv.sh

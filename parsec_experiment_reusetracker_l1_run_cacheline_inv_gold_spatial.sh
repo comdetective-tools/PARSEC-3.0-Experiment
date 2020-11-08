@@ -1,0 +1,11 @@
+#! /bin/bash
+
+./blackscholes_l1_run_cacheline_inv_gold_spatial.sh
+./bodytrack_l1_run_cacheline_inv_gold_spatial.sh
+./dedup_l1_run_cacheline_inv_gold_spatial.sh
+./facesim_l1_run_cacheline_inv_gold_spatial.sh
+./fluidanimate_l1_run_cacheline_inv_gold_spatial.sh
+./freqmine_l1_run_cacheline_inv_gold_spatial.sh
+./streamcluster_l1_run_cacheline_inv_gold_spatial.sh
+./swaptions_l1_run_cacheline_inv_gold_spatial.sh
+./vips_l1_run_cacheline_inv_gold_spatial.sh
