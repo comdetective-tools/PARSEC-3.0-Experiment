@@ -1,0 +1,4 @@
+#! /bin/bash
+
+./parsec_experiment_reusetracker_l3_run_cacheline_inv_gold_5x.sh
+./parsec_experiment_reusetracker_l3_run_cacheline_inv_gold_spatial_5x.sh
