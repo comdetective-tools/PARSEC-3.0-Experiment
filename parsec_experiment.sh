@@ -16,7 +16,7 @@ parsec-3.0/bin/parsecmgmt -a build -p canneal -c gcc-pthreads
 ./fix_dedup_error.sh
 parsec-3.0/bin/parsecmgmt -a build -p dedup -c gcc-pthreads
 parsec-3.0/bin/parsecmgmt -a build -p streamcluster -c gcc-pthreads
-
+parsec-3.0/bin/parsecmgmt -a build -p ferret -c gcc-pthreads
 
 ComDetective_path=/home/msasongko17/reusetracker/hpctoolkit-bin
 
