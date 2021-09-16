@@ -1,6 +1,6 @@
 #! /bin/bash
-wget https://parsec.cs.princeton.edu/download/3.0/parsec-3.0.tar.gz
-tar xvfz parsec-3.0.tar.gz
+#wget https://parsec.cs.princeton.edu/download/3.0/parsec-3.0.tar.gz
+#tar xvfz parsec-3.0.tar.gz
 
 parsec-3.0/bin/parsecmgmt -a build -p bodytrack -c gcc-openmp
 parsec-3.0/bin/parsecmgmt -a build -p fluidanimate -c gcc-pthreads
@@ -19,12 +19,12 @@ parsec-3.0/bin/parsecmgmt -a build -p streamcluster -c gcc-pthreads
 ./fix_ferret_error.sh
 parsec-3.0/bin/parsecmgmt -a build -p ferret -c gcc-pthreads
 
-./blackscholes_run.sh
-./bodytrack_run.sh
-./dedup_run.sh
-./facesim_run.sh
-./fluidanimate_run.sh
-./freqmine_run.sh
-./streamcluster_run.sh
-./swaptions_run.sh
-./vips_run.sh
+#./blackscholes_run.sh
+#./bodytrack_run.sh
+##./dedup_run.sh
+#./facesim_run.sh
+#./fluidanimate_run.sh
+#./freqmine_run.sh
+#./streamcluster_run.sh
+#./swaptions_run.sh
+#./vips_run.sh
